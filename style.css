@@ -11,21 +11,11 @@
   
   body {
     background-image: url('./images/back-ground.jpg');
-    background-size: 100% auto;
-    background-repeat: repeat-x;
-    animation: slide 30s linear infinite;
+    background-size: cover;
     background-attachment: fixed;
 
   }
 
-  @keyframes slide {
-    0% {
-      background-position: 0 0;
-    }
-    100% {
-      background-position: -100% 0;
-    }
-  }
   
   html {
     box-sizing: border-box;
@@ -155,7 +145,7 @@
     margin-bottom: 12px;
     background-color: #fff;
     padding: 8px 16px;
-    border-radius: 5px;
+    border-radius: 45px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   }
   
