@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ec1f55;
+    --primary-color: #790496;
     --text-color: #333;
   }
   
@@ -10,7 +10,21 @@
   }
   
   body {
-    background-color: #f5f5f5;
+    background-image: url('./images/back-ground.jpg');
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+    animation: slide 30s linear infinite;
+    background-attachment: fixed;
+
+  }
+
+  @keyframes slide {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
   }
   
   html {
@@ -38,12 +52,13 @@
   
   .dashboard {
     padding: 16px 16px 14px;
-    background-color: #fff;
+    background-image: url(./images/dashboard.png);
     position: fixed;
     top: 0;
     width: 100%;
     max-width: 480px;
     border-bottom: 1px solid #ebebeb;
+    border-radius: 25px;
   }
   
   /* HEADER */
@@ -58,7 +73,7 @@
   }
   
   header h2 {
-    color: var(--text-color);
+    color: #fff;
     font-size: 20px;
   }
   

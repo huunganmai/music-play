@@ -37,53 +37,132 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STROAGE_KEY)) || {},
     songs: [
         {
-            name: 'Hong Nhan',
-            singer: 'Jack 5 củ',
-            path: 'songs/hong-nhan.mp3',
-            image: 'images/hong-nhan.png'
+            name: 'Mùi hương',
+            singer: 'Anh Khang',
+            path: 'songs/mui-huong.mp3',
+            image: 'images/mui-huong.png'
         },
         {
-            name: 'Bac Phan',
-            singer: 'Jack 5 củ',
-            path: 'songs/bac-phan.mp3',
-            image: 'images/bac-phan.png'
+            name: 'Time machine',
+            singer: '',
+            path: 'songs/time-machine.mp3',
+            image: 'images/time-machine.png'
         },
         {
-            name: 'Dom Dom',
-            singer: 'Jack 5 củ',
-            path: 'songs/dom-dom.mp3',
-            image: 'images/dom-dom.png'
+            name: 'Can we love',
+            singer: 'Obito',
+            path: 'songs/can-we-love.mp3',
+            image: 'images/can-we-love.png'
         },
         {
-            name: 'Em Gi Oi',
-            singer: 'Jack 5 củ',
-            path: 'songs/em-gi-oi.mp3',
-            image: 'images/em-gi-oi.png'
+            name: 'Chỉ một đêm nữa thôi',
+            singer: 'MCK',
+            path: 'songs/chi-mot-dem-nua-thoi.mp3',
+            image: 'images/chi-mot-dem-nua-thoi.png'
         },
         {
-            name: 'Hoa Vo Sac',
-            singer: 'Jack 5 củ',
-            path: 'songs/hoa-vo-sac.mp3',
-            image: 'images/hoa-vo-sac.png'
+            name: 'Cỏ may',
+            singer: 'Hào',
+            path: 'songs/co-may.mp3',
+            image: 'images/co-may.png'
         },
         {
-            name: 'La Mot Thang Con Trai',
-            singer: 'Jack 5 củ',
-            path: 'songs/la-mot-thang-con-trai.mp3',
-            image: 'images/la-mot-thang-con-trai.png'
+            name: 'Đôi lời',
+            singer: 'Hoàng Dũng',
+            path: 'songs/doi-loi.mp3',
+            image: 'images/doi-loi.png'
         },
         {
-            name: 'Song Gio',
-            singer: 'Jack 5 củ',
-            path: 'songs/song-gio.mp3',
-            image: 'images/song-gio.png'
+            name: 'Em đợi ai',
+            singer: 'Phúc',
+            path: 'songs/em-doi-ai.mp3',
+            image: 'images/em-doi-ai.png'
         },
         {
-            name: 'Ve Ben Anh',
-            singer: 'Jack 5 củ',
-            path: 'songs/ve-ben-anh.mp3',
-            image: 'images/ve-ben-anh.png'
-        }
+            name: 'Liệu',
+            singer: 'Quýt Nho',
+            path: 'songs/lieu.mp3',
+            image: 'images/lieu.png'
+        },
+        {
+            name: 'MASCARA',
+            singer: 'Chillies',
+            path: 'songs/mascara.mp3',
+            image: 'images/mascara.png'
+        },
+        {
+            name: 'Một nhà',
+            singer: 'Da LAB',
+            path: 'songs/mot-nha.mp3',
+            image: 'images/mot-nha.png'
+        },
+        {
+            name: 'Mùa xuân của anh',
+            singer: '',
+            path: 'songs/mua-xuan-cua-anh.mp3',
+            image: 'images/mua-xuan-cua-anh.png'
+        },
+        {
+            name: 'Hồi kết',
+            singer: 'Hà Nhi',
+            path: 'songs/hoi-ket.mp3',
+            image: 'images/hoi-ket.png'
+        },
+        {
+            name: 'Your Smile',
+            singer: 'Your Smile',
+            path: 'songs/your-smile.mp3',
+            image: 'images/your-smile.png'
+        },
+        {
+            name: 'Cuộc gọi về nhà',
+            singer: 'Orange',
+            path: 'songs/cuoc-goi-ve-nha.mp3',
+            image: 'images/cuoc-goi-ve-nha.png'
+        },
+        {
+            name: 'Mùa mưa ngâu nằm cạnh',
+            singer: 'Vũ',
+            path: 'songs/mua-mua-ngau-nam-canh.mp3',
+            image: 'images/mua-mua-ngau-nam-canh.png'
+        },
+        {
+            name: 'Anh thương em nhất mà',
+            singer: 'Lã. x Log x TiB',
+            path: 'songs/anh-thuong-em-nhat-ma.mp3',
+            image: 'images/anh-thuong-em-nhat-ma.png'
+        },
+        {
+            name: 'Em không sai chúng ta sai',
+            singer: 'Erik',
+            path: 'songs/em-khong-sai-chung-ta-sai.mp3',
+            image: 'images/em-khong-sai-chung-ta-sai.png'
+        },
+        {
+            name: 'Em bỏ thuốc lá chưa',
+            singer: 'Bích Phương',
+            path: 'songs/em-bo-thuoc-la-chua.mp3',
+            image: 'images/em-bo-thuoc-la-chua.png'
+        },
+        {
+            name: 'Chuyện tình trẻ con',
+            singer: 'Thành Zuy',
+            path: 'songs/chuyen-tinh-tre-con.mp3',
+            image: 'images/chuyen-tinh-tre-con.png'
+        },
+        {
+            name: 'Ex\'s Hate Me',
+            singer: 'Bray',
+            path: 'songs/ex-hate-me.mp3',
+            image: 'images/ex-hate-me.png'
+        },
+        {
+            name: 'Baby',
+            singer: 'Hoãng',
+            path: 'songs/baby.mp3',
+            image: 'images/baby.png'
+        },
+        
     ],
     loadConfig: function() {
         this.isRandom = this.config.isRandom;
